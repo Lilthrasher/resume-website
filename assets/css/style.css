@@ -17,20 +17,20 @@
 
 iframe {
   height: 100vh;
-  width: 100%
+  width: 100%;
 }
 
 @media (max-width: 1300px) {
   iframe {
     height:1100px;
-    width: 100%
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   iframe {
     height:1550px;
-    width: 100%
+    width: 100%;
   }
 }
 
