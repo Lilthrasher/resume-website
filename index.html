@@ -70,15 +70,22 @@
   <main id="main">
   
     <div id="status">
-      <iframe src="https://status.smithhomelab.com" scrolling ="no" style="width: 100%; height: 100vh; overflow: hidden;" frameborder="0"></iframe>
+      <iframe src="https://status.smithhomelab.com" scrolling ="yes" style="width: 100%; height: 100vh; overflow: hidden;" frameborder="0"></iframe>
     </div>
 
-    <section>
-      <div id="resume" style="height: 100vh;display: flex; align-items: center; justify-content: center;">
+    <!-- <section>
+      <div id="resume" style="height: 100vh;display: flex; align-items: center; justify-content: center;">>
         <img src="assets/img/Resume.png"  width="85%" alt="Resume">
       </div>
-    </section>
-    
+    </section> -->
+
+      <div id="resume" style="height: 100vh;display: flex; align-items: center; justify-content: center;">
+        <picture style="height: 100vh;display: flex; align-items: center; justify-content: center;">
+          <source srcset="assets/img/Resume-Vertical.png" media="(max-width: 600px)">
+          <img src="assets/img/Resume.png"  width="95%" alt="Resume">
+        </picture>
+      </div>
+
     <!-- <section id="about">
       <div class="container">
         <h1>About</h1>
