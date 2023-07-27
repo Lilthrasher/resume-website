@@ -11,10 +11,6 @@
   border-color: red;
 } */
 
-/* html {
-  overflow: hidden;
-} */
-
 iframe {
   height: 100vh;
   width: 100%;
@@ -33,6 +29,19 @@ iframe {
     width: 100%;
   }
 }
+
+/* set div height based on image selected */
+/* @media (max-width: 1199px) {
+  #resume {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 700px) {
+  #resume {
+    height: 900px;
+  }
+} */
 
 /*--------------------------------------------------------------
 # General
